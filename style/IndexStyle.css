@@ -1,0 +1,80 @@
+body {
+    font-size: 1em;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vh;
+    border: solid 1px black;
+
+}
+
+h1 {
+    font-size: 2em;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.generalManagement {
+    min-width: 70vh;
+}
+
+.notificationCenter {
+    min-width: 27vh;
+    /* background-color: pink; */
+
+}
+
+.notifications {
+    font-size: large;
+}
+
+.generalManagement section {
+    margin: 10px 10px;
+    min-height: 40vh;
+    border: solid 2px black;
+
+}
+
+.notificationCenter section {
+    margin: 10px 0px;
+    min-height: 30vh;
+    border: solid 2px black;
+}
+
+@media only screen and (max-width: 807px) {
+    body {
+        background-color: lightblue;
+        width: 100%;
+    }
+
+    .content {
+        justify-content: center;
+        width: 99%;
+    }
+
+    .generalManagement {
+        width: 98%;
+        min-width: 30vh;
+    }
+
+    .notificationCenter {
+        width: 98%;
+    }
+
+    .notificationCenter section {
+        margin: 0px;
+    }
+
+    .generalManagement section {
+        margin: 0px;
+    }
+
+    section {
+        width: 100%;
+        background-color: pink;
+        padding: 10px;
+    }
+}
