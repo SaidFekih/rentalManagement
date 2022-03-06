@@ -15,7 +15,7 @@ a {
     min-height: 100vh;
     align-items: center;
     justify-content: center;
-    background-image: url(assets/images/styleImages/14.png);
+    background-image: url(../assets/images/styleImages/14.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom 30px left;
@@ -79,10 +79,10 @@ a {
 .form-login-new a{
     border: solid 2px #034870;
     color: rgb(3, 72, 112);
-    font-size: 1.3em;
+    font-size: 1.1em;
     border-radius: 5px;
     margin-left: 10px;
-    padding: 6px 25px;
+    padding: 6px 15px;
 
 }
 .we-are {
