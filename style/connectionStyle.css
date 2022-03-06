@@ -1,0 +1,96 @@
+body {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    color: rgba(3, 76, 119, 0.781);
+}
+a {
+    text-decoration: none;
+    color : rgb(165, 165, 165);
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-image: url(assets/images/styleImages/14.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom 30px left;
+    background-attachment: fixed;
+
+}
+
+.content-form-login {
+    display: flex;
+    flex-direction: column;
+    width: 30em;
+    height: 35em;
+    border: solid 2px rgba(3, 76, 119, 0.781);
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.content-form-login i {
+    margin-top: -20px;
+    font-size: 5em;
+    color: rgba(1, 162, 253, 1);
+}
+
+.content-form-login h1 {
+    color: rgba(80, 205, 137, 1) ;
+    margin-top: -5px;
+    font-size: 3em;
+}
+.content-form-login-input{
+    min-height: 13em;
+    padding: 0;
+    width: 25em;
+    box-sizing: border-box;
+}
+.content-form-login-input button{
+    font-size: 1.2em;
+    padding: 10px 154px;
+    background: linear-gradient(90deg, rgba(80, 205, 137, 1) 35%, rgba(1, 162, 253, 1) 100%);
+    border-radius: 5px;
+    border: none;
+    color: rgb(3, 72, 112);
+    font-weight: 550;
+    cursor: pointer;
+}
+.login-form-input {
+    color: rgba(3, 77, 119, 0.931);
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    padding: 5px 5px;
+    box-sizing: border-box;
+}
+.form-login-new{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+}
+.form-login-new a{
+    border: solid 2px #034870;
+    color: rgb(3, 72, 112);
+    font-size: 1.3em;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding: 6px 25px;
+
+}
+.we-are {
+    width: 100%;
+    padding: 20px 20px;
+    margin: 0;
+    background: linear-gradient(90deg, rgba(80, 205, 137, 1) 35%, rgba(1, 162, 253, 1) 100%);
+    box-sizing: border-box;
+    position: absolute;
+
+}
