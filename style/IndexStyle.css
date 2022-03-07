@@ -3,26 +3,54 @@ body {
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
-    width: 100vh;
-    border: solid 1px black;
+    width: 100%;
+    scroll-behavior: smooth;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
 
 h1 {
     font-size: 2em;
 }
-
+i{
+    padding-right: 20px;
+}
+header{
+    background: linear-gradient(90deg, rgba(80, 205, 137, 1) 35%, rgba(1, 162, 253, 1) 100%);
+    width: -moz-available;
+    position: absolute;
+    left: 0px;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+}
+header strong{
+    color: rgb(159, 214, 184);
+    font-size: 2.2em;
+}
+.logo{
+    text-decoration: none;
+    color: rgb(0, 108, 170);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
 .content {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 80px;
 }
 
 .generalManagement {
-    min-width: 70vh;
+    min-width: 120vh;
 }
 
 .notificationCenter {
-    min-width: 27vh;
+    min-width: 23vh;
     /* background-color: pink; */
 
 }
